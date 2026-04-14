@@ -1,2 +1,5 @@
 /data
 /.venv
+/.env
+/data2_images
+/data_processed
