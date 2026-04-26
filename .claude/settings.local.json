@@ -4,7 +4,8 @@
       "Bash(.venv/Scripts/pip install:*)",
       "Bash(pip install:*)",
       "Bash(python -c ' *)",
-      "Bash(.venv/Scripts/python -c ' *)"
+      "Bash(.venv/Scripts/python -c ' *)",
+      "Bash(.venv/Scripts/pip freeze *)"
     ]
   }
 }
