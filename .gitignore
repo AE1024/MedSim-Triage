@@ -4,4 +4,7 @@
 /data2_images
 /data_processed
 /vector_database
-/__pycache__
+__pycache__/
+*.pyc
+.claude/
+.idea/
