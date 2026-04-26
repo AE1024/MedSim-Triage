@@ -3,3 +3,4 @@
 /.env
 /data2_images
 /data_processed
+/vector_database
