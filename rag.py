@@ -137,7 +137,7 @@ class Embedding:
 # VECTOR STORE
 # ==========================================
 class VectorStore:
-    def __init__(self, collection_name: str = "pdf_vector_multilingual", persist_directory: str = "./data/vector_store"):
+    def __init__(self, collection_name: str = "pdf_vector_multilingual", persist_directory: str = "./vector_database/vector_store"):
         self.collection_name = collection_name
         self.persist_directory = persist_directory
         Path(self.persist_directory).mkdir(parents=True, exist_ok=True)

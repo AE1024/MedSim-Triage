@@ -1,5 +1,6 @@
 import os
 from typing import List
+from dotenv import load_dotenv
 from typing_extensions import TypedDict
 from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
@@ -10,7 +11,7 @@ from langchain_groq import ChatGroq
 from rag import embedding_manager, vectorstore
 
 # Groq API Anahtarı
-
+load_dotenv()
 
 # Groq modelini başlatalım
 llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
